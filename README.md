@@ -86,7 +86,8 @@ The ``ng-virtual-keyboard`` could receive an array with the configurations that 
  - __Keyboard size control__ ``size`` Five sizes based on font-size have been pre-programmed: 13px, 16px (default), 20px, 24px and 28px; corresponding to the sizes 1 to 5 respectively. _Default: 3_
  - __Adjust keyboard size__ ``sizeAdj`` Allow user to adjust keyboard size. _Default: ``true``_
  - __Custom CSS Class__ ``customClass`` A CSS class name to add in the first html element of the keyboard
-
+ - __Show list of keyboard layouts__ ``showKbSelect`` Boolean indicating wether the list of available keyboard layouts should be displayed for selection or not. Default: _false_.
+ 
 ### Example of use
 
 _See example in the [Demo page](http://the-darc.github.io/angular-virtual-keyboard) or the [demo code](https://github.com/the-darc/angular-virtual-keyboard/blob/master/demo/index.html)_
